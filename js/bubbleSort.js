@@ -61,7 +61,7 @@ function bubbleSort3(arr) {
     console.timeEnd('2.改进后冒泡排序耗时');
     return arr;
 }
-//两边遍历，包含交换位置
+//两边方向遍历，包含交换位置
 function bubble(arr){
     var len=arr.length;
     var high=len-1,hpos;
